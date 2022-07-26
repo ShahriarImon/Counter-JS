@@ -7,7 +7,7 @@ let count = 0;
 
 const clicking = (element) => {
   element.addEventListener("click", (e) => {
-    if (e.currentTarget.id == "add") {
+    if (e.target.id == "add") {
       count += 1;
     }
     if (e.target.id == "minus") {
